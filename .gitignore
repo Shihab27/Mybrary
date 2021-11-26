@@ -1,2 +1,2 @@
 .env
-node_modules //these files are not greying out to show they are ignored
+node_modules
