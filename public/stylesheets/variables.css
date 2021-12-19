@@ -1,0 +1,22 @@
+@import 'shared/variables.css';
+@import 'shared/fonts.css';
+
+:root {
+    --color-base-hue: 200;
+    --color-danger-hue-offset: 180;
+    --color-danger-hue: calc(var(--color-base-hue) - var(var(--color-danger-hue-offset)))
+    --color-background-dark: hsl(var(--color-base-hue), 100%, 8%);
+    --color-background-light: hsl(var(--color-base-hue), 100%, 16%);
+    --color-text-light: hsl(var(--color-base-hue), 100%, 87%);
+}  
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem;
+
+}
+
+.inner-container {
+    margin: 0 2rem;
+}
